@@ -1,0 +1,43 @@
+/* colors */
+:root{
+    --black: #000000;
+    --green: #1abc9c;
+    --azure:#1ea4b6;
+    --dark-grey: #2c3e50;
+    --light-grey:#3a546d;
+    --red: #ba4b63;
+    --deep-azure: #1c83c1;
+    --blue: #0e38b5;
+    --beige:#ccb2a3;
+
+}
+.bg-green{
+    background-color: var(--green);
+}
+.bg-red{
+    background-color: var(--red);
+}
+.bg-light-grey{
+    background-color: var(--light-grey);
+}
+.bg-dark-grey{
+    background-color: var(--dark-grey);
+}
+.bg-black{
+    background-color: var(--black);
+}
+.bg-azure{
+    background-color: var(--azure);
+}
+.bg-deep-azure{
+    background-color: var(--deep-azure);
+}
+.bg-blue{
+    background-color: var(--blue);
+}
+.bg-beige{
+    background-color: var(--beige);
+}
+.color-text-dark-grey{
+    color: var(--dark-grey)
+}

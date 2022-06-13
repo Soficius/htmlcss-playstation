@@ -1,0 +1,53 @@
+
+#cards{
+    border:2px dashed rgb(72, 31, 194);
+    
+}
+#limits{
+    border: 2px dashed red;
+}
+#playstation{
+    border: 2px dashed red;
+}
+#slider{
+    border: 2px dashed red;
+}
+#uscite{
+    border: 2px dashed red;
+}
+#esplora{
+    border: 2px dashed red;
+}
+#plus{
+    border: 2px dashed red;
+}
+#now{
+    border: 2px dashed red;
+}
+#social{
+    border: 2px dashed red;
+}
+
+#sconti{
+    border: 2px dashed red;
+}
+.b-border{
+    border: 2px solid rgb(182, 30, 30);
+}
+.s-h{
+    height: 20px;
+}
+.b-h{
+    height: 100px;
+}
+#jumbotron{
+    height: 400px;
+    background-color: lime;
+}
+#jumbotron-2{
+    height: 400px;
+    background-color: rgb(157, 255, 0);
+}
+.text-center{
+    text-align: center;
+}
