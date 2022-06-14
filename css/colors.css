@@ -1,43 +1,47 @@
 /* colors */
 :root{
     --black: #000000;
-    --green: #1abc9c;
-    --azure:#1ea4b6;
-    --dark-grey: #2c3e50;
-    --light-grey:#3a546d;
-    --red: #ba4b63;
-    --deep-azure: #1c83c1;
-    --blue: #0e38b5;
-    --beige:#ccb2a3;
-
+    --grey: #363636;
+    --red: #cd3d0f;
+    --blue: #2d64e6;
+    --dark-grey: #1f1f1f;
+    --light-ìgrey:#bebcbb;
+    --beige:#d9dadc;
+    --deep-azure: #161c3b;
+    --dark-blue: #00439c;
+    --azure:#2a89d6;
 }
-.bg-green{
-    background-color: var(--green);
+
+.bg-black{
+    background-color: var(--black);
+}
+.bg-grey{
+    background-color: var(--grey);
 }
 .bg-red{
     background-color: var(--red);
 }
-.bg-light-grey{
-    background-color: var(--light-grey);
+.bg-blue{
+    background-color: var(--blue);
+}
+.bg-dark-blue{
+    background-color: var(--deep-azure);
+}
+.bg-dark-blue{
+    background-color: var(--deep-azure);
 }
 .bg-dark-grey{
     background-color: var(--dark-grey);
 }
-.bg-black{
-    background-color: var(--black);
-}
-.bg-azure{
-    background-color: var(--azure);
-}
-.bg-deep-azure{
-    background-color: var(--deep-azure);
-}
-.bg-blue{
-    background-color: var(--blue);
+.bg-light-grey{
+    background-color: var(--light-grey);
 }
 .bg-beige{
     background-color: var(--beige);
 }
-.color-text-dark-grey{
-    color: var(--dark-grey)
+.color-text-azure{
+    color: var(--azure)
+}
+.color-text-grey{
+    color: var(--grey);
 }

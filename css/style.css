@@ -1,23 +1,22 @@
+/* buttons */
+.btn{
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+/* border */
+.b-black{
+    border: 1px solid black;
+}
+/* jumbotron */
+#jumbotron{
+    background-image: url(/img/jumbo-bg.png);
+    height: 600px;
+}
+/* jumbotron 2 */
+#jumbotron-2{
+    background-image: url(/img/it-takes-two-hero-banner-desktop.jpg);
+}
 
-#cards{
-    border:2px dashed rgb(72, 31, 194);
-    
-}
-#limits{
-    border: 2px dashed red;
-}
-#playstation{
-    border: 2px dashed red;
-}
-#slider{
-    border: 2px dashed red;
-}
-#uscite{
-    border: 2px dashed red;
-}
-#esplora{
-    border: 2px dashed red;
-}
 #plus{
     border: 2px dashed red;
 }
@@ -39,14 +38,6 @@
 }
 .b-h{
     height: 100px;
-}
-#jumbotron{
-    height: 400px;
-    background-color: lime;
-}
-#jumbotron-2{
-    height: 400px;
-    background-color: rgb(157, 255, 0);
 }
 .text-center{
     text-align: center;
