@@ -5,10 +5,10 @@
     --red: #cd3d0f;
     --blue: #2d64e6;
     --dark-grey: #1f1f1f;
-    --light-ìgrey:#bebcbb;
+    --light-beige:#bebcbb;
     --beige:#d9dadc;
     --deep-azure: #161c3b;
-    --dark-blue: #00439c;
+    --dark-blue: #00439c; 
     --azure:#2a89d6;
 }
 
@@ -25,10 +25,13 @@
     background-color: var(--blue);
 }
 .bg-dark-blue{
+    background-color: var(--dark-blue);
+}
+.bg-deep-azure{
     background-color: var(--deep-azure);
 }
-.bg-dark-blue{
-    background-color: var(--deep-azure);
+.bg-azure{
+    background-color: var(--azure);
 }
 .bg-dark-grey{
     background-color: var(--dark-grey);
@@ -39,6 +42,10 @@
 .bg-beige{
     background-color: var(--beige);
 }
+.bg-light-beige{
+    background-color: var(--light-beige);
+}
+
 .color-text-azure{
     color: var(--azure)
 }

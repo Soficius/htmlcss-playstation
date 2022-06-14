@@ -1,3 +1,12 @@
+/* header */
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 6em;
+    z-index: 10;
+}
 /* buttons */
 .btn{
     padding: 5px 10px;
@@ -10,26 +19,22 @@
 /* jumbotron */
 #jumbotron{
     background-image: url(/img/jumbo-bg.png);
-    height: 600px;
+    height: 675px;
+    background-position: center
 }
 /* jumbotron 2 */
 #jumbotron-2{
     background-image: url(/img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center
+}
+/* margin */
+.mt-6em{
+    margin-top: 6em;
 }
 
-#plus{
-    border: 2px dashed red;
-}
-#now{
-    border: 2px dashed red;
-}
-#social{
-    border: 2px dashed red;
-}
 
-#sconti{
-    border: 2px dashed red;
-}
+
+
 .b-border{
     border: 2px solid rgb(182, 30, 30);
 }
@@ -39,6 +44,14 @@
 .b-h{
     height: 100px;
 }
+
+.h-2em{
+    height: 2em;
+}
+.h-4em{
+    height: 4em;
+}
+
 .text-center{
     text-align: center;
 }
