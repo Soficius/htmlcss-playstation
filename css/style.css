@@ -8,9 +8,10 @@ header{
     z-index: 10;
 }
 /* buttons */
-.btn{
+.my-btn{
     padding: 5px 10px;
     border-radius: 20px;
+    transition: box-shadow 250ms;
 }
 /* border */
 .b-black{
@@ -33,9 +34,10 @@ header{
 }
 /* effects */
 /* buttons */
-.btn:hover{
+.my-btn:hover{
     background: var(--bg-cur-color);
-    box-shadow: 0 0 0 4px var(--bg-cur-color), inset 0 0 0 1px #fff;
+    box-shadow: 0 0 0 4px var(--bg-cur-color), inset 0 0 0 1.5px var(--ripple-cur-color); /* si estende verso l'esterno, il colore della linea sara quello di --ripple-cur-color */
+    /* box-shadow: inset 0 0 0 3px var(--bg-cur-color), inset 0 0 0 4.5px var(--ripple-cur-color); */ /* va verso l'interno, il colore della linea sara quello di --ripple-cur-color */
 }
 /* images */
 #card img{
