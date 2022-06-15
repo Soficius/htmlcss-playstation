@@ -13,36 +13,47 @@
 }
 
 .bg-black{
+    --bg-cur-color: var(--black);
     background-color: var(--black);
 }
 .bg-grey{
+    --bg-cur-color: var(--grey);
     background-color: var(--grey);
 }
 .bg-red{
+    --bg-cur-color: var(--red);
     background-color: var(--red);
 }
 .bg-blue{
+    --bg-cur-color: var(--blue);
     background-color: var(--blue);
 }
 .bg-dark-blue{
+    --bg-cur-color: var(--dark-blue);
     background-color: var(--dark-blue);
 }
 .bg-deep-azure{
+    --bg-cur-color: var(--deep-azure);
     background-color: var(--deep-azure);
 }
 .bg-azure{
+    --bg-cur-color: var(--azure);
     background-color: var(--azure);
 }
 .bg-dark-grey{
+    --bg-cur-color: var(--dark-grey);
     background-color: var(--dark-grey);
 }
 .bg-light-grey{
+    --bg-cur-color: var(--light-grey);
     background-color: var(--light-grey);
 }
 .bg-beige{
+    --bg-cur-color: var(--beige);
     background-color: var(--beige);
 }
 .bg-light-beige{
+    --bg-cur-color: var(--light-beige);
     background-color: var(--light-beige);
 }
 

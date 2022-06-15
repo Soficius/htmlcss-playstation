@@ -32,10 +32,37 @@ header{
     margin-top: 6em;
 }
 /* effects */
-img{
-    transition: transform 0.5;
+/* buttons */
+.btn:hover{
+    background: var(--bg-cur-color);
+    box-shadow: 0 0 0 4px var(--bg-cur-color), inset 0 0 0 1px #fff;
 }
-#cards > .col-6 img{
-   
+/* images */
+#card img{
+    transition: transform 0.6s ;
+}
+#cards img:hover{
+    transform:translateY(-15px) scale(1.05);
+}
 
+#slider figure{
+    opacity: 0.5 ;
+    transition: opacity 0.5s;
+}
+#slider figure::after{
+    content: '';
+    display: block;
+    height: 2px;
+    background: transparent;
+    width: 100%;  
+}
+#slider figure:hover, #slider figure:active{
+    opacity: 1.0;
+}
+#slider figure:hover::after, #slider figure:active::after{
+    content: '';
+    display: block;
+    height: 2px;
+    background: blue;
+    width: 100%;
 }
