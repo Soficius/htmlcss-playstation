@@ -31,27 +31,11 @@ header{
 .mt-6em{
     margin-top: 6em;
 }
-
-
-
-
-.b-border{
-    border: 2px solid rgb(182, 30, 30);
+/* effects */
+img{
+    transition: transform 0.5;
 }
-.s-h{
-    height: 20px;
-}
-.b-h{
-    height: 100px;
-}
+#cards > .col-6 img{
+   
 
-.h-2em{
-    height: 2em;
-}
-.h-4em{
-    height: 4em;
-}
-
-.text-center{
-    text-align: center;
 }
