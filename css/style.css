@@ -32,6 +32,15 @@ header{
 .mt-6em{
     margin-top: 6em;
 }
+/* padding */
+.pl-3{
+    padding-left: 1rem!important;
+}
+@media (min-width: 768px){
+    .pl-md-3{
+        padding-left: 1rem!important;
+    }
+}
 /* effects */
 /* buttons */
 .my-btn:hover{
@@ -58,10 +67,10 @@ header{
     background: transparent;
     width: 100%;  
 }
-#slider figure:hover, #slider figure:active{
+#slider figure:hover, #slider figure:active, #slider figure.active{
     opacity: 1.0;
 }
-#slider figure:hover::after, #slider figure:active::after{
+#slider figure:hover::after, #slider figure:active::after, #slider figure.active::after{
     content: '';
     display: block;
     height: 2px;
